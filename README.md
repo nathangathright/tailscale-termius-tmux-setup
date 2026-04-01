@@ -2,14 +2,14 @@
 
 Automated setup script for remote coding from an iPad using Tailscale SSH and tmux.
 
-📖 **[Read the full guide with hardware recommendations](https://nathangathright.github.io/ipad-remote-setup/)**
+📖 **[Read the full guide with hardware recommendations](https://nathangathright.github.io/tailscale-termius-tmux-setup/)**
 
 ## Quick Start
 
 On your Mac (the one you want to access remotely):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/nathangathright/ipad-remote-setup/main/setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/nathangathright/tailscale-termius-tmux-setup/main/setup.sh | bash
 ```
 
 On your iPad, install [Tailscale](https://apps.apple.com/us/app/tailscale/id1470499037) and [Termius](https://apps.apple.com/us/app/termius-ssh-client/id549039908), then scan the QR code displayed by the script.

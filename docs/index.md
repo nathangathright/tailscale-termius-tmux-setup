@@ -23,7 +23,7 @@ This is my setup. There are many[^1] like[^2] it[^3], but this one is mine.
 Run the setup script on your Mac (the one you want to access remotely):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/nathangathright/ipad-remote-setup/main/setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/nathangathright/tailscale-termius-tmux-setup/main/setup.sh | bash
 ```
 
 This installs Tailscale and tmux, configures everything for remote access, and displays a QR code for easy iPad setup. It also adds powerful shell helpers:
@@ -35,7 +35,7 @@ The script also installs a skill that teaches AI coding agents how to properly p
 
 Tailscale encrypts all traffic end-to-end and your Mac is only accessible to devices on your private network—no ports exposed to the internet.
 
-If you prefer to set things up manually, see the [README](https://github.com/nathangathright/ipad-remote-setup) for step-by-step instructions.
+If you prefer to set things up manually, see the [README](https://github.com/nathangathright/tailscale-termius-tmux-setup) for step-by-step instructions.
 
 ### Configure Your iPad
 
@@ -86,7 +86,7 @@ Since your iPad and Mac are on the same Tailscale network, any dev server runnin
 
 The setup script installs a skill that knows the correct preview commands for every major framework. Just ask your coding agent to "preview this project over Tailscale" and it will handle the rest!
 
-**Manual reference**: See [CLAUDE.md](https://github.com/nathangathright/ipad-remote-setup/blob/main/CLAUDE.md) for detailed framework-specific commands (Vite, Next.js, Cloudflare Workers, etc.) and troubleshooting tips.
+**Manual reference**: See [CLAUDE.md](https://github.com/nathangathright/tailscale-termius-tmux-setup/blob/main/CLAUDE.md) for detailed framework-specific commands (Vite, Next.js, Cloudflare Workers, etc.) and troubleshooting tips.
 
 Need to share a preview with someone outside your Tailscale network? Use [Tailscale Funnel](https://tailscale.com/kb/1223/funnel):
 
@@ -98,7 +98,7 @@ This gives you a public `https://<hostname>.<tailnet>.ts.net` URL — no ngrok, 
 
 ## Questions?
 
-Feel free to reach out if you run into any issues replicating this setup. The automated setup script and documentation are available at [github.com/nathangathright/ipad-remote-setup](https://github.com/nathangathright/ipad-remote-setup).
+Feel free to reach out if you run into any issues replicating this setup. The automated setup script and documentation are available at [github.com/nathangathright/tailscale-termius-tmux-setup](https://github.com/nathangathright/tailscale-termius-tmux-setup).
 
 Happy remote coding!
 
